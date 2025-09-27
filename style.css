@@ -39,8 +39,14 @@ body {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: border-radius 0.4s ease, transform 0.3s ease;
 }
 
+.imagem:hover {
+  border-radius: 0%;         
+      transform: scale(1.05);
+}
+  
 .caixa-sobre {
   background-color: white;
   padding: 20px;
@@ -59,3 +65,4 @@ a {
   text-decoration: none;
   color: #82a8ec;
 }
+
